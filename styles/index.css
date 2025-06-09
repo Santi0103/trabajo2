@@ -15,11 +15,14 @@ body {
 }
 
 .banner {
-  background: url("../assets/imagenes/imagen1.png");
+  background-image: url("../assets/imagenes/imagen1.png") /*no-repeat center center*/;
+  width: 100vw;
+  height: 100vh;
   text-align: center;
-  padding: auto;
+  /*padding: auto;
   background-color: #F4F4F4;
   background-size: contain;
+  justify-content:center;*/
 }
 
 button {
